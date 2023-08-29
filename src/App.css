@@ -1,0 +1,46 @@
+.container-admin-page{
+  display: flex;
+  flex-direction: column;
+  padding: 3vw;
+}
+.challenger-row{
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: center;
+  height: 40vh;
+}
+
+.container-admin-page  .challenger-row .table-container-challenge{
+  margin: 10px 20px;
+}
+
+.container-admin-page  .challenger-row .table-container-challenge .nes-table{
+  width: 60vw;
+}
+
+.container-admin-page  .challenger-row .table-container-olds-challenge {
+  margin: 10px 20px;
+}
+
+.container-admin-page  .challenger-row .table-container-olds-challenge .nes-table{
+  width: 50vw;
+}
+
+.container-admin-page .challenger-row .button-container{
+  display: flex;
+  gap: 10px;
+}
+
+.container-admin-page .challenger-row .top-user-list{
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  
+}
+
+.container-admin-page .challenger-row .top-user-list .nes-badge{
+  width: 100%;
+}
+
