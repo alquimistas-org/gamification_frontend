@@ -1,6 +1,4 @@
-
-
-
+// eslint-disable-next-line
 export const Table = ({heads,data}) =>{
     return(
     <div className="nes-table-responsive">
