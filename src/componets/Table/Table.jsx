@@ -5,7 +5,8 @@ export const Table = ({heads,data}) =>{
         <table className="nes-table is-bordered is-centered">
             <thead>
                 <tr>
-                    {heads.map((title, key)=>{
+                    {// eslint-disable-next-line
+                    heads.map((title, key)=>{
                         return(
                             <th key={key}>{title}</th>
                         )
@@ -13,7 +14,8 @@ export const Table = ({heads,data}) =>{
                 </tr>
             </thead>
             <tbody>
-            {data.map((val, key) => {
+            {// eslint-disable-next-line
+            data.map((val, key) => {
                     return (
                         <tr key={key}>
                             {Object.keys(val).map((zelda, key1)=>{

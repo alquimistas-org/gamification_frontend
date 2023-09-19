@@ -1,5 +1,5 @@
 function Players() {
-  return <div>Tournaments View placeholder</div>
+  return <div>Players View placeholder</div>
 }
 
 export { Players };
